@@ -1,0 +1,25 @@
+# Secrets - see docs/SETUP.md section 8. The rule has no exceptions.
+*.private.json
+credentials*.json
+Files from slack/
+**/japanfold*codes*
+*.pem
+id_*
+team-4*
+
+# Large prediction blobs. Run ids and score tables must commit - only the
+# structures and archives are ignored (SETUP.md, resolved 13:20 W1).
+*.cif
+*.pdb
+*.tar
+*.gz
+*.cbor.gz
+
+# Editor / OS litter
+*.swp
+*.swo
+.*.swp
+*~
+__pycache__/
+*.pyc
+.DS_Store

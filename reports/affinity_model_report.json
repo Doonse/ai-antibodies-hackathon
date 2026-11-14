@@ -1,0 +1,48 @@
+{
+  "classes": [
+    "low",
+    "medium",
+    "high"
+  ],
+  "cdrh3_length": 10,
+  "n_train": 419476,
+  "n_test": 104870,
+  "facs_all": {
+    "n": 104870,
+    "accuracy": 0.7241,
+    "auc_top_class": 0.8745
+  },
+  "facs_eligible_band": {
+    "n": 104734,
+    "accuracy": 0.7238,
+    "auc_top_class": 0.8741
+  },
+  "confusion_matrix": [
+    [
+      22188,
+      6472,
+      3777
+    ],
+    [
+      5495,
+      27438,
+      5070
+    ],
+    [
+      3424,
+      4699,
+      26307
+    ]
+  ],
+  "spr_all": {
+    "n": 187,
+    "spearman_rho": 0.1795,
+    "p_value": 0.013981057703201566
+  },
+  "spr_eligible_band": {
+    "n": 150,
+    "spearman_rho": -0.0737,
+    "p_value": 0.36991592425849584
+  },
+  "verdict": "DO NOT RANK ON THIS -- report the negative result and fall back to the structural triple"
+}
